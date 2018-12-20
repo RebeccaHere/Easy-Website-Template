@@ -23,7 +23,6 @@ p{
 	background-color: #6A5ACD;
   	color: white;
 	font-weight: normal;
-  	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
@@ -34,13 +33,29 @@ p{
 	border-radius: 10px;
 	border-color: aliceblue;
 	border-color: darkslateblue;
+	padding: 15px 32px;
+}
+.smal{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 30px;
+}
+.padding{
+	padding-top: 20px;
+}
+.dash{
+	white-space: nowrap; 
+  	overflow: hidden;
+  	text-overflow: clip; 
+}
+img{
+	width: 60%;
+	height: 60%;
 }
 .buttonyt{
 	font-family: 'Lobster', cursive;
 	background-color: #E33638;
   	color: white;
 	font-weight: normal;
-  	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
@@ -50,13 +65,17 @@ p{
 	border: solid 5px;
 	border-radius: 10px;
 	border-color: brown;
+	padding: 15px 32px;
+}
+.buttonALL{
+	width: auto;
+	resize:horizontal;
 }
 .buttoninsta{
 	font-family: 'Lobster', cursive;
 	background-color: #F58529;
   	color: white;
 	font-weight: normal;
-  	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
@@ -66,6 +85,7 @@ p{
 	border: solid 5px;
 	border-radius: 10px;
 	border-color: darkgoldenrod;
+	padding: 15px 32px;
 }
 body{
 	background-image: url("../images/bg.jpg");
