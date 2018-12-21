@@ -1,0 +1,50 @@
+.button{
+	font-family: 'Lobster', cursive;
+	background-color: #6A5ACD;
+  	color: white;
+	font-weight: normal;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 21px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border: solid 5px;
+	border-radius: 10px;
+	border-color: aliceblue;
+	border-color: darkslateblue;
+	padding: 15px 32px;
+
+.buttonyt{
+	font-family: 'Lobster', cursive;
+	background-color: #E33638;
+  	color: white;
+	font-weight: normal;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 21px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border: solid 5px;
+	border-radius: 10px;
+	border-color: brown;
+	padding: 15px 32px;
+}
+.buttoninsta{
+	font-family: 'Lobster', cursive;
+	background-color: #F58529;
+	
+  	color: white;
+	font-weight: normal;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 21px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border: solid 5px;
+	border-radius: 10px;
+	border-color: darkgoldenrod;
+	padding: 15px 32px;
+}

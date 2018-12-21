@@ -18,23 +18,7 @@ p{
 	font-size: 25px;
 	font-family: 'Staatliches', cursive;
 }
-.button{
-	font-family: 'Lobster', cursive;
-	background-color: #6A5ACD;
-  	color: white;
-	font-weight: normal;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 21px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-	border: solid 5px;
-	border-radius: 10px;
-	border-color: aliceblue;
-	border-color: darkslateblue;
-	padding: 15px 32px;
-}
+
 .smal{
 	font-family: 'Major Mono Display', monospace;
 	font-size: 30px;
@@ -51,41 +35,16 @@ img{
 	width: 60%;
 	height: 60%;
 }
-.buttonyt{
-	font-family: 'Lobster', cursive;
-	background-color: #E33638;
-  	color: white;
-	font-weight: normal;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 21px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-	border: solid 5px;
-	border-radius: 10px;
-	border-color: brown;
-	padding: 15px 32px;
-}
+
 .buttonALL{
-	width: auto;
-	resize:horizontal;
-}
-.buttoninsta{
-	font-family: 'Lobster', cursive;
-	background-color: #F58529;
-  	color: white;
-	font-weight: normal;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 21px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-	border: solid 5px;
-	border-radius: 10px;
-	border-color: darkgoldenrod;
-	padding: 15px 32px;
+	display:inline-block;
+    *display:inline; /*IE7*/
+    *zoom:1; /*IE7*/
+    background:blue;
+    color:white;
+    margin-right:10px;
+	font-family: 'Staatliches', cursive;
+	
 }
 body{
 	background-image: url("../images/bg.jpg");
@@ -101,3 +60,30 @@ body{
 	font-family: 'Staatliches', cursive;
 	font-weight: bold;
 }
+/* BUTTONS 1*/
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+	background-size: 100%;
+	background-image: url("../images/nav.jpg");
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+/* if you whant the old buttons go to Web site starter kit\old buttons.txt open DO NOT OPEN IT WITH NOTEPAD and paste the code under here  and deete BUTTONS 1*/
