@@ -40,11 +40,22 @@ img{
 	display:inline-block;
     *display:inline; /*IE7*/
     *zoom:1; /*IE7*/
-    background:blue;
+    background:#020202;
     color:white;
     margin-right:10px;
 	font-family: 'Staatliches', cursive;
+	font-size: 40px;
 	
+}
+.buttonALLsmall{
+	display:inline-block;
+    *display:inline; /*IE7*/
+    *zoom:1; /*IE7*/
+    background:#020202;
+    color:white;
+    margin-right:10px;
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
 }
 body{
 	background-image: url("../images/bg.jpg");
