@@ -5,13 +5,13 @@
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 50%;
+  	font-size: 19px;
 	
 	
 }
 h1{
 	font-family: 'Major Mono Display', monospace;
-	font-size: 45px;
+	font-size: 70px;
 	
 }
 p{
@@ -79,11 +79,13 @@ ul {
   	overflow: hidden;
 	background-size: 100%;
 	background-image: url("../images/nav.jpg");
+	font-size: 60px;
 }
 
 li {
   float: left;
 }
+
 
 li a {
   display: block;
